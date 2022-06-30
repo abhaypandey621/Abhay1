@@ -1,0 +1,34 @@
+History of java
+
+* In 1990,Sun Micro Systems Inc. was conceived a project to develop software for consumer electronic devices 
+  that could be controlled by a remote.This project was called Stealth Project but later its name was changed to Green Project.
+
+* In January 1961, Project Manager James Gosling and his team members Patric Naughton , Mike Sheridan ,Chris Wrath and Ed frank met to discuss about this Project.
+
+* Java is full object oriented language.
+* They introduced true arrays and eliminated pointer arithematic.
+
+* They eliminated pointer object arthimetic .
+
+* They eliminated the possibilitiesof confusing an assignment with a test for equality in a conditional statement.
+* They eliminated multiple inheritance replacing it with a new notation interface that they derieved from objective C
+
+
+### "JAVA PROGRAM STRUCTURE" ###
+
+
+*  Since java is purely an object oriented Programming language , without creating an object to a class it is not possible to access methods and members of a class .
+   but main method is also a method inside a class , since program execution starts from main method we ned to call main method without creating an object .
+
+*  Statics methods are the methods , which can be called and executed without creating objects . since we want to call the main method without using an object , We should 
+   declare main method as static . JVM calls main method using its Classname.main at the time of running the program.
+
+*  JVM is a program written by java soft people (java development team) and main is the method written by us.
+   Since, main method should be available to the JVM ,it should be declared as public . If we don't declare main method as public , then it doesn't make itself available 
+   to JVM and JVM executes it.
+
+*  JVM always looks for main method with String type array as parameter otherwise JVM cannot recognize the main method , so we must provide String type array as parameter 
+   to main method.
+
+*  A class code starts with a { and ends with a } . A class or an object contains variables and methods (functions). We can create any number of variables and methods
+   inside the class.
